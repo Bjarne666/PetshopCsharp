@@ -243,7 +243,7 @@ namespace Petshop
             Console.WriteLine("\n system list of pets: ");
             foreach (var pet in pets)
             {
-                Console.WriteLine($"Id: {pet.Id} Name: {pet.Name}" + $"Type: {pet.Type} Colour: {pet.Colour}" + $"Birthdate: {pet.BirthDate}");
+                Console.WriteLine($"Id: {pet.Id} Name: {pet.Name} " + $"Type: {pet.Type} Colour: {pet.Colour} " + $"Birthdate: {pet.BirthDate} " + $"price: {pet.Price}");
                 
             }
             Console.WriteLine("\n");
